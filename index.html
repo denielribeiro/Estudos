@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <title>Calculo de Dano</title>
+  </head>
+  <body>
+    <h1>Cálculo de Dano</h1>
+    <hr />
+    <h2>Atacante</h2>
+    <label for="name">Nome:</label>
+    <input type="text" id="attackerName" placeholder="Atacante" value="Odin" /><br /><br />
+    <label for="healf">Pontos de vida:</label>
+    <input type="text" id="attackerHealf" placeholder="Vida" value="2000" /><br /><br />
+    <label for="attackForce">Força de Ataque</label>
+    <input type="text" id="attackerForce" placeholder="Força" value="8000" />
+    <br /><br />
+    <h2>Defensor</h2>
+    <label for="name">Nome:</label>
+    <input type="text" id="defenseName" placeholder="Defensor" value="Zeus" /><br /><br />
+    <label for="healf">Pontos de vida:</label>
+    <input type="text" id="defenseHealf" placeholder="Vida" value="2800" /><br /><br />
+    <label for="defense">Poder de Defesa</label>
+    <input type="text" id="defenseForce" placeholder="Força" value="10" />
+    <br /><br />
+    <label for="shield">Possui Escudo?</label><br />
+    <input type="radio" id="yes" name="shield" value="sim" />
+    <label for="yes">Sim</label><br />
+    <input type="radio" id="no" name="shield" value="nao" />
+    <label for="no">Não</label><br /><br />
+    <button id="figthBtn">Lutar!!</button>
+    <hr />
+    <ul id="resultFigth"></ul>
+  </body>
+</html>
